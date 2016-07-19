@@ -98,7 +98,7 @@ try:
         condition = "advances"
 
     error = int(raw_input("The subtitle %s (in sec) by: " % condition))
-    if state == "n":
+    if state == "y":
         error = -(error)
 except:
     print "\n WARNING: Only interger input are accepted.\n Retry!"
